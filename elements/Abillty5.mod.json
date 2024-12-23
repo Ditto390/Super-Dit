@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "R",
+    "keyBindingName": "Abillty 5",
+    "keyBindingCategoryKey": "super",
+    "onKeyPressed": {
+      "name": "Abillty5OnKeyPressed"
+    }
+  }
+}

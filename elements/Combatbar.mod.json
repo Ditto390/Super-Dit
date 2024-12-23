@@ -1,0 +1,31 @@
+{
+  "_fv": 69,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "combat_tag.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "CombatTagCon"
+          },
+          "anchorPoint": "CENTER",
+          "x": 195,
+          "y": 5
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

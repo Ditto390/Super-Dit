@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Abillty 3",
+    "keyBindingCategoryKey": "super",
+    "onKeyPressed": {
+      "name": "Abillty3OnKeyPressed"
+    }
+  }
+}

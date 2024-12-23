@@ -1,0 +1,746 @@
+{
+  "mod_elements": [
+    {
+      "name": "Abillty1OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_1_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/Abillty1OnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Keybinds/Keybind 1"
+    },
+    {
+      "name": "Abillty1",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/network/Abillty1Message.java"
+        ]
+      },
+      "path": "~/Keybinds/Keybind 1"
+    },
+    {
+      "name": "SetDiegoBrandoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_diego_brando_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/SetDiegoBrandoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SetDiegoBrando",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_diego_brando",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/item/SetDiegoBrandoItem.java",
+          "src/main/resources/assets/super_dit/models/item/set_diego_brando.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SetdiobrandoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setdiobrando_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/SetdiobrandoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Setdiobrando",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setdiobrando",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/super_dit/models/item/setdiobrando.json",
+          "src/main/java/net/mcreator/superdit/item/SetdiobrandoItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "AbilltyOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/client/screens/AbilltyOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "DiegoBrandoCon1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diego_brando_con_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/DiegoBrandoCon1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "Cooldown",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/potion/CooldownMobEffect.java"
+        ]
+      },
+      "path": "~/Effect"
+    },
+    {
+      "name": "Coodlwondiegobanrdo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coodlwondiegobanrdo",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/CoodlwondiegobanrdoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "SuperDit",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_dit",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Flexibility",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flexibility",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/super_dit/models/item/flexibility.json",
+          "src/main/java/net/mcreator/superdit/item/FlexibilityItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Abillty2",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/network/Abillty2Message.java"
+        ]
+      },
+      "path": "~/Keybinds/Keybind 2"
+    },
+    {
+      "name": "Abillty2OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_2_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/Abillty2OnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Keybinds/Keybind 2"
+    },
+    {
+      "name": "Abillty3",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/network/Abillty3Message.java"
+        ]
+      },
+      "path": "~/Keybinds/keybind 3"
+    },
+    {
+      "name": "Abillty3OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_3_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/Abillty3OnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Keybinds/keybind 3"
+    },
+    {
+      "name": "Abillty4OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_4_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/Abillty4OnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Keybinds/Keybind 4"
+    },
+    {
+      "name": "Abillty4",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/network/Abillty4Message.java"
+        ]
+      },
+      "path": "~/Keybinds/Keybind 4"
+    },
+    {
+      "name": "Abillty5",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/network/Abillty5Message.java"
+        ]
+      },
+      "path": "~/Keybinds/Keybind 5"
+    },
+    {
+      "name": "Abillty5OnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abillty_5_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/Abillty5OnKeyPressedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Keybinds/Keybind 5"
+    },
+    {
+      "name": "DioCon1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dio_con_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/DioCon1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "Renderplayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "renderplayer",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/RenderplayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "Stat",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/world/inventory/StatMenu.java",
+          "src/main/java/net/mcreator/superdit/client/gui/StatScreen.java"
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "MenuOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/MenuOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Keybinds/Other"
+    },
+    {
+      "name": "Menu",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/network/MenuMessage.java"
+        ]
+      },
+      "path": "~/Keybinds/Other"
+    },
+    {
+      "name": "Zangetsu",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zangetsu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/super_dit/models/item/zangetsu.json",
+          "src/main/java/net/mcreator/superdit/item/ZangetsuItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IchigoRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/IchigoRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Ichigo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/super_dit/models/item/ichigo.json",
+          "src/main/java/net/mcreator/superdit/item/IchigoItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "IchigoCon1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ichigo_con_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/IchigoCon1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "BankaiBar",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bankai_bar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/client/screens/BankaiBarOverlay.java"
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "CombatTag",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_tag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/potion/CombatTagMobEffect.java"
+        ]
+      },
+      "path": "~/Effect"
+    },
+    {
+      "name": "CombatTagCon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combat_tag_con",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/CombatTagConProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "Combatbar",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combatbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/client/screens/CombatbarOverlay.java"
+        ]
+      },
+      "path": "~/Gui/Overlay"
+    },
+    {
+      "name": "ConbatTagactive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conbat_tagactive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/superdit/procedures/ConbatTagactiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Other"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Diego_Brando",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "dio_brando",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Diego_BrandoCooldown",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Ichigo",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Zangetsu"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.super_dit.set_diego_brando": "Set Diego Brando",
+      "item.super_dit.flexibility": "Flexibility",
+      "item_group.super_dit.super_dit": "Super Dit",
+      "gui.super_dit.abillty_overlay.label_loyal_companion": "loyal companion",
+      "gui.super_dit.stat.label_yen": "Yen :",
+      "gui.super_dit.abillty_overlay.label_abillty_5": "5",
+      "gui.super_dit.abillty_overlay.label_abillty_3": "3",
+      "gui.super_dit.abillty_overlay.label_abillty_4": "4",
+      "item.super_dit.zangetsu": "Zangetsu",
+      "gui.super_dit.stat.label_hp": "Defence -",
+      "gui.super_dit.abillty_overlay.label_abillty_1": "1",
+      "effect.super_dit.combat_tag": "Combat Tag",
+      "gui.super_dit.abillty_overlay.label_abillty_2": "2",
+      "gui.super_dit.stat.label_remaining_points": "remaining points -",
+      "gui.super_dit.stat.label_speed": "Speed -",
+      "gui.super_dit.stat.label_empty": "--------------------------------",
+      "gui.super_dit.stat.label_special": "Special -",
+      "effect.super_dit.cooldown": "Cooldown",
+      "key.super_dit.abillty_5": "Abillty 5",
+      "item.super_dit.setdiobrando": "Setdiobrando",
+      "key.super_dit.abillty_4": "Abillty 4",
+      "item.super_dit.ichigo": "Ichigo",
+      "gui.super_dit.stat.label_12": "1",
+      "gui.super_dit.stat.label_3": "3",
+      "gui.super_dit.abillty_overlay.label_time_stop": "Time Stop",
+      "gui.super_dit.stat.label_13": "1",
+      "gui.super_dit.stat.label_14": "1",
+      "gui.super_dit.stat.label_15": "25",
+      "gui.super_dit.stat.label_1": "1",
+      "key.super_dit.menu": "Menu",
+      "gui.super_dit.stat.label_level": " Level -",
+      "gui.super_dit.stat.button_shop": "Shop",
+      "gui.super_dit.stat.label_power": "Power -",
+      "gui.super_dit.stat.label_11": "1",
+      "gui.super_dit.abillty_overlay.label_loyal": "loyal companion",
+      "key.super_dit.abillty_3": "Abillty 3",
+      "key.super_dit.abillty_2": "Abillty 2",
+      "key.super_dit.abillty_1": "Abillty 1"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Keybinds",
+        "children": [
+          {
+            "name": "Keybind 1",
+            "children": []
+          },
+          {
+            "name": "Keybind 2",
+            "children": []
+          },
+          {
+            "name": "keybind 3",
+            "children": []
+          },
+          {
+            "name": "Keybind 4",
+            "children": []
+          },
+          {
+            "name": "Keybind 5",
+            "children": []
+          },
+          {
+            "name": "Other",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Gui",
+        "children": [
+          {
+            "name": "Overlay",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Effect",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "super_dit",
+    "modName": "Super Dit",
+    "version": "1.0.0",
+    "author": "mikey, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.superdit"
+  },
+  "mcreatorVersion": 202400342716
+}

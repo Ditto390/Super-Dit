@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Abillty 4",
+    "keyBindingCategoryKey": "super",
+    "onKeyPressed": {
+      "name": "Abillty4OnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 69,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "M",
+    "keyBindingName": "Menu",
+    "keyBindingCategoryKey": "super",
+    "onKeyPressed": {
+      "name": "MenuOnKeyPressed"
+    }
+  }
+}
